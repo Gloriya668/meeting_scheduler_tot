@@ -108,19 +108,23 @@ if e["capacity_ok"] and e["all_people_ok"]
 
 🔁 总体流程
 生成候选 → 评估 → 筛选 → AI选择
+
 ⚙️ 系统使用说明
 1. 环境
 Python 3.10+
-2. 安装依赖
+
+3. 安装依赖
 pip install openai python-dotenv
-3. 配置 API Key
+
+5. 配置 API Key
 
 创建 .env 文件：
-
 DEEPSEEK_API_KEY=你的API_KEY
+
 4. 运行
 python scheduler_ai.py
-5. 输出
+
+6. 输出
 
 程序会输出：
 
